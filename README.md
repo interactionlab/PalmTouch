@@ -1,4 +1,4 @@
-# PalmTouch: PalmTouch: Using the Palm as an Additional Input Modality on Commodity Smartphones
+# PalmTouch: Using the Palm as an Additional Input Modality on Commodity Smartphones
 This repository contains the dataset, Python notebooks for training and preprocessing, the model reported in the paper, and an Android demo application to run the model. 
 
 ## Paper Abstract
