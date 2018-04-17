@@ -4,6 +4,8 @@ This repository contains the dataset, Python notebooks for training and preproce
 ## Paper Abstract
 Touchscreens are the most successful input method for smartphones. Despite their flexibility, touch input is limited to the location of taps and gestures. We present PalmTouch, an additional input modality that differentiates between touches of fingers and the palm. Touching the display with the palm can be a natural gesture since moving the thumb towards the device’s top edge implicitly places the palm on the touchscreen. We present different use cases for PalmTouch, including the use as a shortcut and for improving reachability. To evaluate these use cases, we have developed a model that differentiates between finger and palm touch with an accuracy of 99.53% in realistic scenarios. Results of the evaluation show that participants perceive the input modality as intuitive and natural to perform. Moreover, they appreciate PalmTouch as an easy and fast solution to address the reachability issue during onehanded smartphone interaction compared to thumb stretching or grip changes.
 
+<img src="https://raw.githubusercontent.com/interactionlab/PalmTouch/master/PalmTouch.PNG" width="900px"/>
+
 This work can be cited as follows:
 <pre>
 @inproceedings{le2018palmtouch,
