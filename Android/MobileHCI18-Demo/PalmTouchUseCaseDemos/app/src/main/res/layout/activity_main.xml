@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/swPalmTouch"
+        android:layout_width="209dp"
+        android:layout_height="29dp"
+        android:text="Run PalmTouch Service: " />
+
+    <TextView
+        android:id="@+id/tvRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/swPalmTouch"
+        android:text="PalmTouch Action:" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgAction"
+        android:layout_below="@+id/tvRadioGroup"
+        >
+
+        <RadioButton
+            android:id="@+id/rbAdaptiveAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Adaptive" />
+
+        <RadioButton
+            android:id="@+id/rbPieMenuAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pie Menu" />
+
+        <RadioButton
+            android:id="@+id/rbNotificationBarAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification Bar" />
+    </RadioGroup>
+
+
+
+
+</RelativeLayout>
